@@ -105,26 +105,19 @@ npm run dev
 - Deploy global dashboard with multi-region visibility
 - Real-time network monitoring with live stream ingestion
 
-## Screenshots To Add
+## Screenshots
 
-Add 3 screenshots only:
+### Dashboard
+![Dashboard](Dashboard.png)
 
-1. Main Dashboard
-What to show: Simple / Engineer toggle, input box, AI response
+### Analytics — Simple Mode
+![Analytics Simple](Analytics.png)
 
-2. DDoS Detection Example
-What to show: CRITICAL alert, explanation, recommendations
+### Analytics — Engineer Mode
+![Analytics Engineer](Analytics_as_Enginner.png)
 
-3. Brute Force Detection Example
-What to show: login fail input, HIGH risk output
+### DDoS Detection — Engineer Mode
+![DDoS Engineer](DDoS-As-engineer.png)
 
-Suggested file layout:
-
-```text
-docs/screenshots/01-main-dashboard.png
-docs/screenshots/02-ddos-detection.png
-docs/screenshots/03-bruteforce-detection.png
-```
-
-Optional boost:
-- Add one short GIF showing typing log input and AI response rendering.
+### DDoS Detection — Simple Mode
+![DDoS Simple](DDoS-As-simple.png)
