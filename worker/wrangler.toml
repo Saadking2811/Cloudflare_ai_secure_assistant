@@ -1,0 +1,17 @@
+name = "ai-security-assistant"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+[ai]
+binding = "AI"
+
+[[durable_objects.bindings]]
+name = "INCIDENT_MEMORY"
+class_name = "IncidentMemory"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["IncidentMemory"]
+
+[vars]
+ALLOWED_ORIGINS = "*"
